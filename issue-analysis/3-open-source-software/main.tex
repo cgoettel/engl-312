@@ -1,6 +1,8 @@
 \documentclass[12pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{mathtools}
+\usepackage{ifpdf}
+\usepackage{mla}
 
 \usepackage{fontspec}
 \setmainfont[BoldFont={HoeflerText-Bold},ItalicFont={Hoefler Text Italic},BoldItalicFont={Hoefler Text Black Italic},SmallCapsFont={HoeflerText-RomanSC},Ligatures={NoCommon, TeX}]{Hoefler Text}
@@ -8,38 +10,27 @@
 
 \usepackage[normalem]{ulem}
 
-\title{Open Source Software}
-\author{Colby Goettel}
-
 \begin{document}
-\maketitle
+\begin{mla}{Colby}{Goettel}{Reed}{Engl\,312}{2014-02-04}{Ruff drought}
+% A: Providing open source code
+% v1: creates
+% B: more robust code
+% v2: enables
+% C: developers to build off existing systems.
 
-% 1) Audience Analysis
-% Write one or two brief paragraphs analyzing your target audience and their values, beliefs, and assumptions. You are writing your paper for a general American audience: imagine that your argument will be distributed in a national newspaper or magazine. Within this general audience, you will need to identify who constitutes your specific audience. Who might find your claim initially unacceptable? What kinds of groups or individuals would care about your issue (e.g., educators, health care providers, government officials, parents, etc.)? What values, beliefs, or assumptions do they hold about your issue? Do you personally know any individuals who would disagree with your stance? What would their probable response to your argument be?
-
-% target audience: programmers, business
-% audience values: scalability, rapid prototyping
+% Outline:
+% Intro, contract
+% B
+% C
+% C->B
+% A
+% procatalepsis
+% A->C
+% A->B (conclusion)
 
 Programming is 90\% finding code that is close to what you want to do and 10\% debugging. Developers love when others offer their code open source, not so it can be stolen, but because rarely, if ever, is a programmer facing a brand new problem. When developers share code, a knowledge database is built upon which others can build. It is the IT equivalent of standing on the shoulders of giants. This need has been provided for in the form of organizations like GitHub, a distributed Git repository store that features both public and private repositories. Developers store their code in places like GitHub and allow others to fork and use their code according to the license it is being distributed with.
 
 The audience for this use case is predominantly developers, but also large and small businesses, entrepreneurs, and teachers and students. These entities value growth, expansion, and rapid prototyping; they believe in using the best, most cutting-edge technology available, but also being highly scalable and having guaranteed uptime. The claim, open sourcing code, is initially unacceptable to some developers and businesses because they believe that others will steal their ideas. Intellectual property (IP) rights protect ideas and innovations so long as the developers understand which licenses are best used in their cases. More education on IP needs to be done. The stakeholders for this claim include educators, businesses, and developers because they are the ones developing and releasing code. I know several people who disagree with this stance and their probable response to this argument is easily solved in that not all code should be released open source, but more than is currently should be. The developers that I have previously discussed this with seem to agree with that point of view.
 
-% 2) Consequential Issue Question
-% Write out the WATCO question (What are the consequences of A on B?) that your paper will answer.
-What are the consequences of open sourcing software on intellectual property?
-
-% 3) Pro/Con Analysis
-% Summarize the arguments for and against your issue. You can write this pro/con analysis in the form of a bulleted list or as a paragraph.
-Pros: easier to share, rapid prototyping, public version control (accountability).
-
-Cons: idea theft, accidental personal information leakage.
-
-% 4) Preliminary Enthymeme
-% Draft a preliminary enthymeme for your paper. This should include your claim, reason, and your assumption. Please follow the format below for writing your enthymeme (be sure to mark the terms and underline the verbs as shown):
-Open sourcing software in public repositories (A) \uline{benefits} (v1) developers (B) because open source software (A$^\prime$) \uline{enables} (v2) developers to build off existing systems (C).
-
-% Banning the advertising of junk food to children (A) decreases (v1) childhood obesity rates (B)
-% b/c
-% Banning the advertising of junk food to children (A) decreases (v2) calorie consumption from junk food among children (C).
-
+\end{mla}
 \end{document}
