@@ -1,0 +1,74 @@
+\documentclass[10pt]{article}
+\usepackage[hmargin=0.75in,top=1in,bottom=0.75in]{geometry}
+
+\usepackage[explicit]{titlesec}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{1em}{#1}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{https://github.com/cgoettel}
+\renewcommand{\headrulewidth}{0pt} % Removes horizontal line.
+
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+\sloppy\hyphenpenalty=4000
+
+\begin{document}
+{\noindent colby.goettel@gmail.com \hfill 627 E 700 N}
+
+{\noindent (949) 682-9119 \hfill Provo, UT 84606}
+
+\begin{center}
+    {\bfseries \Large Colby Goettel} \\
+\end{center}
+\vspace{-20pt}
+
+\section*{Experience}
+\textbf{Project manager}, BYU/FBI, September 2013--present \\*
+Capstone project. Spiral model. Developed a real-time syslog analysis system to detect, analyze, and learn patterns, and report anomalies. Red Hat stack including Logstash, elasticsearch, and Kibana. \\*
+\textbf{Teaching Assistant}, School of Technology, BYU, April 2013--present \\*
+TA for computer networking and operating systems. Typeset class materials (e.g., homework assignments, labs). Assisted the professor in improving course homework and labs. More intimately learned networking and OS theory and principles. Ran the weekly labs and helped students research and find answers. Substituted for teacher when necessary. \\*
+\textbf{Computer programmer}, Harold B. Lee Library, BYU, April 2010--August 2013 \\*
+Programmed over 400 utilities to generate custom reports for librarians. These scripts make API and database calls, then parse the output to specifications. Scripts are predominantly written in Perl with extensive usage of regular expressions, but awk and bash scripts abound. Utilized PHP, HTML, and CSS for web applications. Some system administration. Provided general computer support to library faculty. \\*
+\textbf{Circulation staff}, Howard W. Hunter Law Library, BYU, November 2009--April 2010 \\*
+Document management. Gained familiarity with court briefs. Improved digitizing system. \\*
+\textbf{Lab technician}, BYU Physics Department Machine Shop, BYU, April 2009--August 2009 \\*
+General woodwork and metalwork, including welding and grinding. Cleaned shop, moved and organized thousands of pounds of scrap metal and tools, and learned problem solving skills. \\*
+\textbf{Waterfront staff}, Camp Cherry Valley, BSA, Summers 2004--2006 \\*
+Trained lifeguards and taught small boat sailing, beginning and advanced swimming, etc.\ each week for the nine weeks that camp was open during the summer. Led scouts on weekly hikes of 4--16 miles. Other work included troop relations and tasks involving mass and private communication.
+
+\section*{Education}
+B.S. degree candidate, Information Technology, Brigham Young University
+\begin{itemize}
+    \itemsep0em
+    \item Minor: Biblical Hebrew
+    \item Expected graduation: August 2014
+    \item Relevant coursework:
+    \begin{itemize}
+        \itemsep0em
+        \item IT\,515R -- System administration: set up a corporate network including Active Directory, configuration management with Puppet, SNMP management, Nagios monitoring, and security monitoring with AlienVault OSSIM. Extensive documentation.
+        \item IT\,529 -- Advanced networking: network management with Zenoss and SNMP. Extensive documentation.
+    \end{itemize}
+\end{itemize}
+
+\section*{Languages and technologies}
+\begin{tabular}{L!{\VRule}R}
+    Computer    & Linux, Perl, git, Zenoss, VMWare, regex, SNMP, \LaTeX, Nagios, Cisco IOS, Bash, awk, sed, MySQL, C++, Wireshark, Python, apache, HTML+CSS, DNS, TCP/IP, UDP \\
+    Spoken      & French (working proficiency) \\
+    Written     & Ancient Hebrew (working proficiency), Imperial Aramaic (working proficiency) \\
+    Strengths   & Linux, \LaTeX, Perl, regex
+\end{tabular}
+
+\section*{Awards and positions}
+\begin{itemize}
+    \itemsep0em
+    \item ORCA Grant recipient for project entitled \textit{Typesetting a Hebrew Bible Translation}
+    \item IT Student Association, treasurer
+    \item Eagle Scout with Silver Palm
+\end{itemize}
+
+\end{document}

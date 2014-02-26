@@ -1,0 +1,70 @@
+\documentclass{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+
+\sloppy\hyphenpenalty=4000
+
+% Force signature to be left-aligned.
+\longindentation=0pt
+
+% Force address and date to be left-aligned.
+\makeatletter
+\def\opening#1{\ifx\@empty\fromaddress
+  \thispagestyle{firstpage}%
+    {\raggedleft\@date\par}%
+  \else  % home address
+    \thispagestyle{empty}%
+    {\noindent\let\\\cr\halign{##\hfil\cr\ignorespaces
+      \fromaddress \cr\noalign{\kern 2\parskip}%
+      \@date\cr}\par}%
+  \fi
+  \vspace{2\parskip}%
+  {\raggedright \toname \\ \toaddress \par}%
+  \vspace{2\parskip}%
+  #1\par\nobreak}
+\makeatother
+
+\address{Colby Goettel \\ 627 E 700 N \\ Provo, UT 84606}
+
+% Statements are generally 1-2 pages
+\begin{document}
+\begin{letter}{Information Technology Department \\ Ira A.\ Fulton College of Engineering and Technology \\ 270 CB \\ Provo, UT 84602}
+\opening{Dear Graduate Selection Committee:}
+
+%     carefully constructed statement of your academic preparation and goals
+%     indicating how graduate work fits into those goals
+%     your expected graduate degree completion date
+%     whether or not you plan to attend full-time
+I am applying to the Master's of Technology program with an emphasis in Information Technology for Fall 2014. I expect to graduate in April 2016 by engaging as a full-time student.
+
+%     preparation and background for the program to which you are applying and the special emphasis you hope to pursue in it,
+%     your academic or professional goals,
+By the time I enter this program, I will have a Bachelor of Science in Information Technology with an emphasis in systems and network administration and a minor in Biblical Hebrew. Throughout my life and especially the past several years, I have been particularly drawn to systems administration. The advanced networking and systems administration classes have been, more than anything else in the program, the best preparation for my future. These high caliber classes have not only prepared me for a future in systems administration, but also for a graduate program and the associated research.
+
+I have a passion for all kinds of writing, technical and otherwise. To augment my writing skills, I went out of my way to take Writing With Style (Engl\,324) and Persuasive Writing (Engl\,312). These classes focus on, respectively, writing on the sentence and paragraph level, and expanding on your writing. My writing has drastically improved because I've had the opportunity to take these classes, which helped contribute to my substantially above average writing score for an IT applicant on the \textsc{g\hspace*{0.05em}r\hspace*{0.05em}e}.
+
+I decided to study Biblical Hebrew because I have always had a deep love for the Old Testament. I have an affinity for learning foreign languages and a strong linguistic skill, resulting in a minor \textsc{g\hspace*{0.05em}p\hspace*{0.05em}a} of 3.64. Biblical Hebrew and Aramaic have been an outlet for the natural, more creative part of my brain. In the past three years I have translated 10\% of the Hebrew Bible and continue translating on a daily basis. This helps my writing because I try to render my translations idiomatically while still being true to the Hebrew. English and Hebrew have vastly different structures and it is a creative challenge to be idiomatic while not adding or removing meaning. The writing classes I've taken have helped me to accomplish this while also sharpening my writing skills and critical thinking.
+
+In addition, I have applied for and received an ORCA Grant for the research topic \textit{Typesetting a Hebrew Bible Translation} with Assistant Professor Tew. We are currently writing a paper on this topic and its associated challenges which will be submitted to SIGITE this summer. This writing experience will improve my research abilities, writing skills, and better prepare me for the rigors of graduate studies; this background will prove useful in the event that I do my thesis on multilingual typesetting or another field in the digital humanities.
+
+%     reasons for your choice of career
+My initial goal upon graduation with a graduate degree is to become a systems administrator and later move into enterprise architecture and finally into management. I have long enjoyed project management from my Eagle Scout project to my capstone project. My twenty year plan includes getting an MBA and moving into upper management. The classes I've taken are central to my immediate plans, as is this advanced degree in Technology. Because of these classes I feel confident enough that I can enter a company and administer their infrastructure or discover it if there's no documentation. Further research and study with Associate Professor Ekstrom and Adjunct Professor Havens will deepen this understanding and allow me to give greater insights in the future to businesses, to have a greater impact on their organizations.
+
+%     your particular academic or professional reasons for applying to Brigham Young University
+Brigham Young University is a healthy environment, spiritually and scholastically, which has helped me become a better person and a better student. The ability that we have to discuss the gospel in class and relate secular things to spiritual things is a rare opportunity in the academic environment and has been a blessing in my life. Being surrounded by good, faithful people~--- being taught by them, being mentored by them~--- encourages me, buoys me, betters me.
+
+%     any special circumstances you wish the department to consider, such as circumstances that may have affected undergraduate academic performance
+%     and the scholarly or professional contributions you expect to make to your program
+Early in my collegiate career, I really struggled with staying in school and making sense of it all. Fortunately, I found the upper level IT curriculum because it helped me find my purpose for being in school. I want to be, and am capable of being, a good student; I understand now what that means. Through my senior year I have proven that I can tackle difficult tasks, work effectively as a team member, and produce quality work. I am qualified and ready for graduate studies and research; and further, this program will greatly augment my career path and the professional life I have ahead of me.
+
+Thank you for your time and consideration.
+
+I look forward to your reply.
+
+\closing{Yours faithfully,\\
+\fromsig{\includegraphics[scale=0.5]{signature.jpg}} \\
+\fromname{Colby Goettel}
+} 
+
+\end{letter}
+\end{document}
