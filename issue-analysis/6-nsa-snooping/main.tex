@@ -5,6 +5,10 @@
 
 \usepackage[normalem]{ulem}
 
+% Widow and orphan penalty. 7000 was an arbitrary pick, but it seems to work.
+\widowpenalty=10000
+\clubpenalty=10000
+
 \begin{document}
 \begin{mla}{Colby}{Goettel}{Reed}{English 312}{25 February 2014}{NSA Snooping and Counter-terrorism}
 % Intro, contract
@@ -19,57 +23,71 @@ The government has been eavesdropping on American citizens since the 1950s under
 
 Prism, with a confidence interval of only 51\% that the target is not a US citizen, can perform ``extensive, in-depth surveillance on live communications and stored information'' (Greenwald and MacAskill 2013) such as a ``phone call, e-mail or chat'' (PRISM slide 2) from Microsoft, Yahoo, Google, Facebook, PalTalk, YouTube, Skype, AOL, and Apple (PRISM slide 5w and Upstream slide).
 
-Expand: Talk about NSA building at Point of the Mountain, GPUs, password cracking, potential of SHA1 having been hacked. Programs being used by other branches of government including local law enforcement.
+% xxxx: EXPAND ON THE ABOVE PARAGRAPH
+
+% Expand: Talk about NSA building at Point of the Mountain, GPUs, password cracking, potential of SHA1 having been hacked. Programs being used by other branches of government including local law enforcement.
 
 % C: security bounds and right to privacy
 % what should be secure
 % fourth amendment
-Expand: All data should be encrypted. HTTPS everywhere. The computational power is no longer a problem.
+Unless there is a backdoor present in the system, it is impossible for anyone to gain access to secure information. However, if the information is not stored securely then there is no promise of protection. All information sent over the Internet needs to be encrypted using the most up-to-date encryption standards. Old standards, such as MD5, have been compromised and are no longer considered secure. The computing world is constantly changing and evolving and the onus is on users and corporations to ensure that all information is properly protected.
 
-Expand: The First and Fourth Amendments protect Americans' right to privacy. Without a warrant, personal information should always be safe. Without a warrant, except in very certain circumstances, law enforcement personnel are not allowed to enter houses. How is data any different?
+The computing overhead to encrypt and decrypt information used to be enormous. For that reason, the standard was to only encrypt sensitive data and transmit everything else as plain text. Since computers have evolved exponentially in the past few decades this is no longer needed. In 2010, Gmail switched all of their e-mail to HTTPS and experienced an increased CPU load of only 1\% (Langley).
+
+% xxxx: improve
+The First and Fourth Amendments protect Americans' right to free speech, practice, and privacy. Without a warrant, personal information is theoretically always safe. Without a warrant, except in specific circumstances, law enforcement personnel are not allowed to enter houses. How is data any different?
 
 % A->C: effect of NSA snooping on bounds and right to privacy
 % how far is too far?
 % nothing is secure
 % "I still have some security"
-Bruce Schneier, a security guru, talking about how to solve this problem said, ``Fixing this problem is going to be hard. We are long past the point where simple legal interventions can help. The bill in Congress to limit NSA surveillance won't actually do much to limit NSA surveillance. Maybe the NSA will figure out an interpretation of the law that will allow it to do what it wants anyway. Maybe it'll do it another way, using another justification. Maybe the FBI will do it and give it a copy. And when asked, it'll lie about it'' (Schneier 2014).
+Bruce Schneier, a security expert, talks at length about how NSA has overstepped its bounds and shown a clear disregard to people's right to privacy with no intentions of stopping:
+\begin{mlaquote}
+    We are long past the point where simple legal interventions can help. The bill in Congress to limit NSA surveillance won't actually do much to limit NSA surveillance. Maybe the NSA will figure out an interpretation of the law that will allow it to do what it wants anyway. Maybe it'll do it another way, using another justification. Maybe the FBI will do it and give it a copy. And when asked, it'll lie about it (Schneier 2014).
+\end{mlaquote}
+Since the revelations last year from Snowden, the NSA has shown no backing off, making it clear that they have no intentions of stopping this unethical and possibly unconstitutional behavior.
 
 % B: stopping terrorism
-Terrorism is a huge concern in Americans' minds, especially since the events of 9/11. However, in 2011 only seventeen ``US citizens worldwide [were] killed as a result of incidents of terrorism'' (State Department 2012). Terrorism is no longer a large threat. In fact, it is more likely that you will be killed by a toddler or lightning than by a terrorist, not to mention the probability of being killed by a drunk driver. We are fighting the wrong battle.
+The main justification for this breach of trust is to stop terrorism. Terrorism is a huge concern in Americans' minds, especially since the events of 9/11. However, in 2011 only seventeen ``US citizens worldwide [were] killed as a result of incidents of terrorism'' (US State Department). In fact, it is more likely that people will be killed by a toddler or lightning than by a terrorist, not to mention the probability of being killed by a drunk driver. Terrorism is no longer the threat, it's simply the cover story.
 
 % procatalepsis
 % "I have nothing to hide"
 % "anything collected by the NSA is inadmissible in court"
 % "What do people feel a need to hide for?"
 % Ukraine's text messages
-The line of thinking that ``I have nothing to hide'' is wrong. Numerous arguments against (to be summarized):
--http://chronicle.com/article/Why-Privacy-Matters-Even-if/127461/
--http://www.zephoria.org/thoughts/archives/2013/06/10/nothing-to-hide.html
--https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=998565
--http://www.wired.com/opinion/2013/06/why-i-have-nothing-to-hide-is-the-wrong-way-to-think-about-surveillance/
--http://www.wired.com/politics/security/commentary/securitymatters/2006/05/70886
-
-Another argument is that ``anything collected by the NSA is inadmissible in court'' which doesn't matter much when you're being tried by a secret court or you're dead because of a drone strike. For instance, https://www.aclu.org/national-security/aclu-ccr-lawsuit-american-boy-killed-us-drone-strike
-
-Ukraine is currently going through a revolution. Last month, thousands of protesters simultaneously received the following text message: ``Dear subscriber, you are registered as a participant in a mass disturbance.'' This is just the tip of the iceberg for what the NSA is capable of doing, and this was done by a foreign power!
+Unfortunately, many people hold onto the false notion that they have nothing to hide and therefore don't need security. Everyone has something to hide because everyone makes mistakes. Crimes can always be found and proven, all someone needs to do is look hard enough. But the main concern is the lack of government transparency. The people do not know how the information that the NSA and others are collecting is being used. They don't even know if the information is being used for or against them. More transparency would go a long way towards solving this problem, but there still exists the overreach of the government into people's personal lives. Another common argument is that anything collected by the NSA is inadmissible in court. This matters less when the NSA and others are using recognized, secret courts and executing their own citizens in drone strikes (ACLU).
 
 % C->B: security bounds and right to privacy on stopping terrorism
-Again from Schneier, ``We have no evidence that any of this surveillance makes us safer. NSA Director General Keith Alexander responded to these stories in June by claiming that he disrupted 54 terrorist plots. In October, he revised that number downward to 13, and then to `one or two.' At this point, the only `plot' prevented was that of a San Diego man sending \$8,500 to support a Somali militant group. We have been repeatedly told that these surveillance programs would have been able to stop 9/11, yet the NSA didn't detect the Boston bombings~--- even though one of the two terrorists was on the watch list and the other had a sloppy social media trail. Bulk collection of data and metadata is an ineffective counterterrorism tool'' (Schneier 2014).
+Referring to the NSA's lack of stopping terrorism, Schneier said:
+\begin{mlaquote}
+We have no evidence that any of this surveillance makes us safer. NSA Director General Keith Alexander responded to these stories in June by claiming that he disrupted 54 terrorist plots. In October, he revised that number downward to 13, and then to ``one or two.'' At this point, the only ``plot'' prevented was that of a San Diego man sending \$8,500 to support a Somali militant group. We have been repeatedly told that these surveillance programs would have been able to stop 9/11, yet the NSA didn't detect the Boston bombings~--- even though one of the two terrorists was on the watch list and the other had a sloppy social media trail (Schneier).
+\end{mlaquote}
+
+
+Schneier thus concludes that ``[b]ulk collection of data and metadata is an ineffective counterterrorism tool.''
 
 % A->B (conclusion): NSA snooping on stopping terrorism
-The NSA has gone to an extreme extent to stop terrorism, an extent wildly out of their hands, and have proven fruitless in their labors. They do not possess the ability to stop another 9/11 from happening, nor did they possess the ability to stop the Boston marathon bombings. Their surveillance programs, widely regarded as unconstitutional (and under legal fire from the EFF, ACLU, and others), have not been able to stop terrorist plots against the United States and need to be stopped.
+The NSA has gone to an extreme extent to stop terrorism, an extent wildly out of their hands, and have proven fruitless in their labors. They do not possess the ability to stop another 9/11 from happening, nor did they possess the ability to stop the Boston marathon bombings. Their surveillance programs, widely regarded as unconstitutional (and under legal fire from the EFF, ACLU, and others), have not been able to stop terrorist plots against the United States and need to be reined in.
 
 \begin{workscited}
+    \bibent ``ACLU \& CCR Lawsuit: American Boy Killed By U.S. Drone Strike.'' \textit{ACLU}. N.p., n.d. Web. 20 Feb. 2014.
+    
     \bibent Benkler, Yochai. ``In secret, Fisa court contradicted US supreme court on constitutional rights.'' The Guardian. The Guardian, 22 Sep 2013. Web. 18 Feb 2014.
     
+    \bibent Boyd, Danah. ``Apophenia.'' \textit{Danah Boyd Apophenia RSS}. N.p., 10 June 2013. Web. 05 Mar. 2014.
+    
     \bibent Greenwald, Glenn, and Ewen MacAskill. ``NSA Prism program taps in to user data of Apple, Google and others''. The Guardian, 06 Jun 2013. Web. 25 Feb 2014.
+    
+    \bibent Langley, Adam. ``ImperialViolet.'' \textit{Atom}. N.p., 25 June 2010. Web. 05 Mar. 2014.
     
     \bibent Prism slide 5w. 2013. Graphic. Wikimedia. Web. 18 Feb 2014.
     
     \bibent Schneier, Bruce. ``How the NSA Threatens National Security.'' Schneier on Security. N.p., 13 Jan 2014. Web. 18 Feb 2014.
     
     \bibent Ibid. ``How the FISA Court Undermines Trust''. Schneier on Security. N.p., 23 Jul 2013. Web. 25 Feb 2014.
-        
+    
+    \bibent Solove, Daniel J. ``The Chronicle Review.'' \textit{The Chronicle of Higher Education}. N.p., 15 May 2011. Web. 05 Mar. 2014.
+    
     \bibent ``Terrorism Deaths, Injuries, Kidnappings of Private U.S. Citizens, 2011.'' US Department of State, Diplomacy in Action. Office of the Coordinator for Counterterrorism, 31 Jul 2012. Web. 18 Feb 2014.
     
     \bibent Upstream slide of the PRISM presentation. 2013. Graphic. Wikimedia. Web. 18 Feb 2014.
