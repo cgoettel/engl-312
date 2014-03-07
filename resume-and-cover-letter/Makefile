@@ -4,3 +4,5 @@ goettel-resume.pdf: *.tex Makefile
 	pdflatex goettel-resume.tex
 	pdflatex -halt-on-error cover-letter.tex
 	pdflatex cover-letter.tex
+	pdflatex -halt-on-error reflection.tex
+	pdflatex reflection.tex
