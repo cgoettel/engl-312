@@ -12,7 +12,7 @@ and provided the following explanation.
 
 According to the concise Koehler-Baumgartner: "(intended) evil, harm (to someone); wickedness, perverseness; crime; misery, trouble, disaster, evil (in a weakened sense)."
 
-The unabridged Koehler-Baumgartner (the Hebrew-English lexicon) also states: wickedness; wickedness, depravity; midfortune; calamity, disaster
+The unabridged Koehler-Baumgartner (the Hebrew-English lexicon) also states: wickedness; wickedness, depravity; misfortune; calamity, disaster
 
 Davidson's Analytical Hebrew and Chaldee Lexicon only defines verbs. This word in verb form can either mean to pasture, shepherd, or be a friend to, depending on context.
 
