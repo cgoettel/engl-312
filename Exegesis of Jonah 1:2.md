@@ -9,7 +9,9 @@ My friend asked the following question on Google+:
 > Since you're the only person I know that knows any Hebrew, I thought it'd be neat to see your thoughts. 
 
 So naturally I translated Jonah 1:2 anew:
-> Get up and go to the great city, Nineveh, and proclaim against them\footnote{lit., it. However, it's referring to the people and not the city, the city not being capable of committing sin.} because their wickedness has come up before Me.
+> Get up and go to the great city, Nineveh, and proclaim against them* because their wickedness has come up before Me.
+
+*_literally, "it." However, it's referring to the people and not the city, the city not being capable of committing sin._
 
 ##Explanation
 [רעה](http://www.forvo.com/word/%D7%A8%D7%A2%D7%94/#he) :speaker: (_ra'ah_)
