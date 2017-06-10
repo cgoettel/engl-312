@@ -1,7 +1,7 @@
-#PROMPT
+# PROMPT
 What did you learn from the readings about what public discourse should look like in our society? How does this compare with what it actually does look like in the news, politics, or in other public forums? What do you think can be done to bridge the gap?
 
-#RESPONSE
+# RESPONSE
 In the business world we are taught that during the brainstorming phases of a project there are no bad ideas. Don't throw anything out no matter how absurd it may seem. This is because the oddest ideas usually turn into the most novel ideas with a little development --- they're usually just one or two steps away from greatness. Public discourse works the same way: don't immediately throw out others' ideas. Listen. Care.
 
 The Anatomy of Peace began with one of the parents saying that their kid was throwing their life away, that they weren't going anywhere. The therapist, however, did not tell them that they were wrong. That they needed to care more, love more. Instead, they listened. This is one of the greatest keys to public discourse: listening. Being open and loving is the best possible way to approach public discourse.

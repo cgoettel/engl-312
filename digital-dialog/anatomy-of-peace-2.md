@@ -1,9 +1,9 @@
-#PROMPT
+# PROMPT
 After completing The Anatomy of Peace, respond to the following prompt in 250-400 words:
 1. What do you feel was the most useful concept offered by The Anatomy of Peace for resolving conflict and why?
 2. What does this book have to do with persuasive writing? For example, what concepts from the book will inform the way you write your first paper?
 
-#RESPONSE
+# RESPONSE
 Having finished the book, the most useful part of the reading was what was already submitted in the first digital dialog, viz.: caring for others, their responses, and making sure that we always listen and be patient with others. Change takes time. We cannot expect people to get over terrible addictions in the matter of a few hours. Some scars take a lifetime to heal. We therefore need to be patient with others and love them as they go through change. One of my brothers has made decisions in his life that has led him away from his faith and, in his mind, the love of his family. This couldn't be farther from the truth. We still love him all the same. We hope and pray that he will get his act together, but we do not ostracize him because of his life decisions. This is what The Anatomy of Peace best taught: be patient and wait for others to be willing to change, then help them through that process in love.
 
 Persuasive writing works much the same way. We cannot hope to change deep-seated beliefs in a single essay. We work little by little and help people as they are willing to help themselves. Page 176 contains a list of things to do in order to recover inner clarity and peace. The list involves looking for signs out of the box, putting yourself out of the box, and pondering the situation anew. When writing, we need to make sure that we try to look at situations from different perspectives, that we understand why others feel the way they do, that we spend time pondering what needs to change. Who knows, we might be the ones at fault. This will help my first paper because I will approach it more open-minded. I will look at the other side of life.
